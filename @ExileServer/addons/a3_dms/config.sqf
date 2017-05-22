@@ -526,7 +526,10 @@ DMS_SpawnMissions_Scheduled = false;	// Whether or not to spawn missions in a sc
 											"Exile_Weapon_AK107_GL",
 											"Exile_Weapon_AK74_GL",
 											"Exile_Weapon_AK47",
-											"Exile_Weapon_AKS_Gold"
+											"Exile_Weapon_AKS_Gold",
+											"Exile_Weapon_M4",
+											"Exile_Weapon_M16A4",
+											"Exile_Weapon_M16A2"
 										];
 	DMS_assault_pistols =				[							// Pistols for Assault Class (Set to empty array if you don't want to give them any pistols)
 											"hgun_ACPC2_F",
@@ -626,7 +629,14 @@ DMS_SpawnMissions_Scheduled = false;	// Whether or not to spawn missions in a sc
 											"V_PlateCarrierSpec_mtp",
 											"V_PlateCarrierL_CTRG",
 											"V_TacVest_blk_POLICE",
-											"V_PlateCarrierIA2_dgtl"
+											"V_PlateCarrierIA2_dgtl",
+											"V_DeckCrew_yellow_F",
+											"V_DeckCrew_blue_F",
+											"V_DeckCrew_green_F",
+											"V_DeckCrew_red_F",
+											"V_DeckCrew_white_F",
+											"V_DeckCrew_brown_F",
+											"V_DeckCrew_violet_F"
 										];
 	DMS_assault_backpacks =				[							// Backpacks for Assault Class
 											#ifdef GIVE_AI_APEX_GEAR
@@ -779,7 +789,14 @@ DMS_SpawnMissions_Scheduled = false;	// Whether or not to spawn missions in a sc
 											"B_Carryall_oli",
 											"B_Kitbag_mcamo",
 											"B_Carryall_cbr",
-											"B_Bergen_blk"
+											"B_Bergen_blk",
+											"V_DeckCrew_yellow_F",
+											"V_DeckCrew_blue_F",
+											"V_DeckCrew_green_F",
+											"V_DeckCrew_red_F",
+											"V_DeckCrew_white_F",
+											"V_DeckCrew_brown_F",
+											"V_DeckCrew_violet_F"
 										];
 
 	//Sniper Class
@@ -802,7 +819,9 @@ DMS_SpawnMissions_Scheduled = false;	// Whether or not to spawn missions in a sc
 											#endif
 											"Exile_Weapon_DMR",
 											"Exile_Weapon_SVD",
-											"Exile_Weapon_VSSVintorez"
+											"Exile_Weapon_VSSVintorez",
+											"Exile_Weapon_m107",
+											"Exile_Weapon_ksvk"
 										];
 	DMS_sniper_pistols =				[							// Pistols for Assault Class (Set to empty array if you don't want to give them any pistols)
 											#ifdef GIVE_AI_APEX_WEAPONS
@@ -905,7 +924,14 @@ DMS_SpawnMissions_Scheduled = false;	// Whether or not to spawn missions in a sc
 											"V_TacVest_blk_POLICE",
 											"V_PlateCarrierIA2_dgtl",
 											"V_HarnessO_brn",
-											"V_HarnessO_gry"
+											"V_HarnessO_gry",
+											"V_DeckCrew_yellow_F",
+											"V_DeckCrew_blue_F",
+											"V_DeckCrew_green_F",
+											"V_DeckCrew_red_F",
+											"V_DeckCrew_white_F",
+											"V_DeckCrew_brown_F",
+											"V_DeckCrew_violet_F"
 										];
 	DMS_sniper_backpacks =				[							// Backpacks for Sniper Class
 											#ifdef GIVE_AI_APEX_GEAR
@@ -999,8 +1025,11 @@ DMS_SpawnMissions_Scheduled = false;	// Whether or not to spawn missions in a sc
 												["srifle_GM6_F",1],
 												["srifle_LRR_F",1],
 												["srifle_EBR_F",1],
+												["Exile_Weapon_m107",1],
+												["Exile_Weapon_ksvk",1],
 												["hgun_Pistol_heavy_01_F",1],
-												["hgun_PDW2000_F",1]
+												["hgun_PDW2000_F",1],
+												["Exile_Weapon_SA61",1]
 											],
 											[
 												["ItemGPS",1],
@@ -1021,11 +1050,14 @@ DMS_SpawnMissions_Scheduled = false;	// Whether or not to spawn missions in a sc
 												["muzzle_snds_acp",1],
 												["optic_Holosight_smg",1],
 												["muzzle_snds_L",1],
+												["Exile_Magazine_10Rnd_127x99_m107",3],
+												["Exile_Magazine_5Rnd_127x108_KSVK",3],
 												["5Rnd_127x108_APDS_Mag",3],
 												["7Rnd_408_Mag",3],
 												["20Rnd_762x51_Mag",5],
 												["11Rnd_45ACP_Mag",3],
-												["30Rnd_9x21_Mag",3]
+												["30Rnd_9x21_Mag",3],
+												["Exile_Magazine_20Rnd_765x17_SA61",3]
 											],
 											[
 												["B_Carryall_cbr",1],
@@ -1085,7 +1117,10 @@ DMS_SpawnMissions_Scheduled = false;	// Whether or not to spawn missions in a sc
 											"Exile_Weapon_SVD",
 											"Exile_Weapon_VSSVintorez",
 											"Exile_Weapon_CZ550",
-											"Exile_Weapon_SVDCamo"
+											"Exile_Weapon_SVDCamo",
+											"Exile_Weapon_M4",
+											"Exile_Weapon_M16A4",
+											"Exile_Weapon_M16A2"
 										];
 	DMS_BoxFood =						[							// List of food that can spawn in a crate.
 											"Exile_Item_GloriousKnakworst_Cooked",
@@ -1101,7 +1136,22 @@ DMS_SpawnMissions_Scheduled = false;	// Whether or not to spawn missions in a sc
 											"Exile_Item_SeedAstics",
 											"Exile_Item_Raisins",
 											"Exile_Item_Moobar",
-											"Exile_Item_InstantCoffee"
+											"Exile_Item_InstantCoffee",
+											"Exile_Item_SheepSteak_Cooked",
+											"Exile_Item_AlsatianSteak_Cooked",
+											"Exile_Item_CatSharkFilet_Cooked",
+											"Exile_Item_FinSteak_Cooked",
+											"Exile_Item_GoatSteak_Cooked",
+											"Exile_Item_TurtleFilet_Cooked",
+											"Exile_Item_TunaFilet_Cooked",
+											"Exile_Item_RabbitSteak_Cooked",
+											"Exile_Item_ChickenFilet_Cooked",
+											"Exile_Item_RoosterFilet_Cooked",
+											"Exile_Item_MulletFilet_Cooked",
+											"Exile_Item_SalemaFilet_Cooked",
+											"Exile_Item_MackerelFilet_Cooked",
+											"Exile_Item_OrnateFilet_Cooked",
+											"Exile_Item_SnakeFilet_Cooked"
 										];
 	DMS_BoxDrinks =						[
 											"Exile_Item_PlasticBottleCoffee",
@@ -1131,7 +1181,10 @@ DMS_SpawnMissions_Scheduled = false;	// Whether or not to spawn missions in a sc
 											"Exile_Item_WoodGateKit",
 											"Exile_Item_WoodFloorKit",
 											"Exile_Item_WoodFloorPortKit",
-											"Exile_Item_WoodStairsKit"
+											"Exile_Item_WoodStairsKit",
+											"Exile_Item_WoodDrawBridgeKit",
+											"Exile_Item_WoodLadderKit",
+											"Exile_Item_WoodFloorPortSmallKit"
 										];
 	DMS_Box_BaseParts_Concrete =		[							// List of concrete base parts
 											"Exile_Item_ConcreteWallKit",
